@@ -1,0 +1,51 @@
+---
+layout: page_title
+title: <i class="fa fa-home fa-lg"></i>
+titlename: 首页
+---
+<div style="text-align: center;">
+  <h3>
+    <span style="color: #000080; ">授</span>
+    <span style="color: #FFA500; ">人</span>
+    <span style="color: #2E8B57; ">以</span>
+    <span style="color: #F08080; ">鱼</span>
+    <span style="color: #00CED1; ">,</span>
+    <span style="color: #ff0000; ">不</span>
+    <span style="color: #BA55D3; ">如</span>
+    <span style="color: #601986; ">授</span>
+    <span style="color: #556fb5; ">人</span>
+    <span style="color: #fa1089; ">以</span>
+    <span style="color: #638c0b; ">渔</span>
+  </h3>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-primary">
+      <div class="panel-heading">{{ site.locals.newest }}</div>
+      {% for post in paginator.posts %}
+        <a  href='{{ post.url }}' class="list-group-item pjaxlink clearfix">
+          {{post.title}}
+          <span class="badge">{{ post.date | date:"%Y年%m月%d日" }}</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% for cate in site.cates %}
+    <div class="col-md-12">
+      <div class="panel panel-primary">
+        <div class="panel-heading">{{ cate }}</div>
+        {% for tag in site.tags %} 
+          {% if tag[0] == cate %}
+            {% for post in tag[1] %}
+              <a  href='{{ post.url }}' class="list-group-item pjaxlink clearfix">
+                {{post.title}}
+                <span class="badge">{{ post.date | date:"%Y年%m月%d日" }}</span>
+              </a>
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+ 

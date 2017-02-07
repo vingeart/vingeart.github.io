@@ -1,0 +1,24 @@
+{
+	"title": "VinGe's Live",
+	"links": {
+		"sharing": {
+			"all": null,
+			"facebook": null,
+			"google": null,
+			"twitter": null,
+			"weibo": null
+		},
+		"sidebar": {
+			"VinGe's Live: "http://iamart.vip"
+		}
+	},
+	"styles": {
+        "website": "public/css/yue.css"
+    },
+	"plugins": ["disqus"],
+	"pluginsConfig": {
+		"disqus": {
+            "shortName": "vingeart"
+        }
+	}
+}
