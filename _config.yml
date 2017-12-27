@@ -28,8 +28,8 @@ ga:
   url: http://www.iamart.vip
 
 
-# 多说 设置
-duoshuo_shortname: vingeart
+[]# 多说 设置
+[]duoshuo_shortname: vingeart
 
 # 主题设置，自动激活某个标签
 active: 浅谈
