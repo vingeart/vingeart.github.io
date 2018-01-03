@@ -15,7 +15,7 @@ author:
 # 站点信息
 title: VinGe's Life
 description: My personal note-blog.
-url: http://www.vingeart.cn
+# url: http://www.vingeart.cn
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
