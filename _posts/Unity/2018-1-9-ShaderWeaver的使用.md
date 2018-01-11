@@ -18,6 +18,10 @@ published: True
 	
 ## 效果
 <left>
+	<img src="/public/img/ShaderWeaver的使用/1.gif">
+	</left>	
+<p></p>
+<left>
 	<img src="/public/img/ShaderWeaver的使用/2.png">
 	</left>	
 
