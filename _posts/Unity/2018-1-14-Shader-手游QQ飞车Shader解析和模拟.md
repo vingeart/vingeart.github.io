@@ -15,7 +15,7 @@ published: True
 最近新出了手游版QQ飞车，日活跃突破2000W。所以想试下模拟该游戏效果。
 
 
-## 先看看提取出来的贴图有哪些 ##
+## 提取贴图 ##
 <left>
 	<img src="/public/img/Shader-QQ飞车/1.png">
 	<img src="/public/img/Shader-QQ飞车/2.png">
