@@ -25,6 +25,7 @@ Y轴 = cos(旋转角度)* uv.y + sin(旋转角度) * uv.x
 UV = float2(cos(旋转角度) * uv.x - sin(旋转角度) * uv.y , cos(旋转角度) * uv.y + sin(旋转角度) * uv.x)
 
 
+
 ## UV缩放：
 
     Shader "VinGe/TestUvTiling" {
@@ -51,7 +52,6 @@ UV = float2(cos(旋转角度) * uv.x - sin(旋转角度) * uv.y , cos(旋转
 			sampler2D _MainTex;
 			float _TilingX;
 			float _TilingY;
-	
 	
 			struct Input {
 				float2 uv_MainTex;
@@ -80,6 +80,7 @@ UV = float2(cos(旋转角度) * uv.x - sin(旋转角度) * uv.y , cos(旋转
 			ENDCG
 		} 
 	}
+
 
 
 ## UV偏移：
@@ -137,6 +138,7 @@ UV = float2(cos(旋转角度) * uv.x - sin(旋转角度) * uv.y , cos(旋转
 		} 
 		FallBack "Diffuse"
 	}
+
 
 
 ## UV旋转：
