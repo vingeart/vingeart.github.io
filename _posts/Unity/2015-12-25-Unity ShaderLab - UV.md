@@ -79,6 +79,7 @@ UV = float2(cos(旋转角度) * uv.x - sin(旋转角度) * uv.y , cos(旋转
 			}
 			ENDCG
 		} 
+		FallBack Off
 	}
 
 
@@ -136,7 +137,7 @@ UV = float2(cos(旋转角度) * uv.x - sin(旋转角度) * uv.y , cos(旋转
 			}
 			ENDCG
 		} 
-		FallBack "Diffuse"
+		FallBack Off
 	}
 
 
@@ -193,5 +194,5 @@ UV = float2(cos(旋转角度) * uv.x - sin(旋转角度) * uv.y , cos(旋转
 			}
 			ENDCG
 		} 
-		FallBack "Diffuse"
+		FallBack Off
 	}
