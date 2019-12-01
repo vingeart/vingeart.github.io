@@ -1,0 +1,71 @@
+---
+layout: post
+title: 3Dmax批量展2U
+category:
+  - Max
+tags:
+  - Max
+  - UV
+published: true
+---
+
+
+游戏引擎中需要烘培的物体都需要两套UV。
+
+第一套用来显示贴图的，也就是由我们美术设计师对它进行绘制纹理的，为了节省时间和分辨率最大化显示，一般都会有UV重叠。
+
+第二套是用来烘培光照贴图的，所以不能重叠，并且需要在UV框内（0，1）。比如一个正方体接受左上方的黄色主光和右下方蓝色辅助光的照射（蓝色辅助光强度弱一些），那么它的顶部会是最亮的偏黄的，左边的面次之，右边的面会暗些偏蓝。如果UV重叠在一起了，那烘培在这张光照贴图上的颜色无法确定这一块的颜色和明度是怎样的，也就不能正确的展示到屏幕上。
+
+但由于场景的物件一般都比较多，挨个展开第二套UV也需要耗费很多时间
+
+所以用以下的方法能快速张开第二套UV。
+
+来看看效果吧！！！
+
+ 
+
+第一步：新建几个物件
+<center>
+			<img src="/public/img/3Dmax批量展2U/1.bmp"></center>
+ 
+
+它们的第一套UV分别是这样的
+
+  矩形的UV
+<center>
+			<img src="/public/img/3Dmax批量展2U/2.bmp"></center>
+
+
+  球体的UV
+<center>
+			<img src="/public/img/3Dmax批量展2U/3.bmp"></center>
+ 
+
+  茶壶的UV
+<center>
+			<img src="/public/img/3Dmax批量展2U/4.bmp"></center>
+ 
+
+第二步：选中需要展开第二套UV的模型
+<center>
+			<img src="/public/img/3Dmax批量展2U/5.bmp"></center>
+ 
+
+第三步：点击0键打开渲染到纹理设置并进行参数设置（按箭头顺序）
+<center>
+			<img src="/public/img/3Dmax批量展2U/6.bmp"></center>
+
+
+完后会发现刚刚选中的物体会自动添加并排放好了第二套UV
+<center>
+			<img src="/public/img/3Dmax批量展2U/7.bmp"></center>
+
+
+以下是茶壶展开的第二套UV（另外两个就不截图啦）
+<center>
+			<img src="/public/img/3Dmax批量展2U/8.bmp"></center>
+ 
+
+已经整齐的排放在UV框内啦~~
+
+第四步：塌陷后重置以下模型就可以导出啦~~
