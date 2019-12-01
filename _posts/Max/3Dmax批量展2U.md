@@ -1,11 +1,8 @@
 ---
 layout: post
 title: 3Dmax批量展2U
-category:
-  - Max
-tags:
-  - Max
-  - UV
+category: [Max]
+tags: [Max, UV]
 published: true
 ---
 
