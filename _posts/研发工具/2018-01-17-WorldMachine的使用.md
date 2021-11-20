@@ -20,11 +20,11 @@ published: True
 |Specify Output File|指定输出文件路径|
 |Export using quads|使用四边面导出|
 |Use multi-tile UV coordinates|使用多块UV。前提是场景有做切割成多块|
-|Output File on every Build|每Build一次就输出一次|
+|Output File on every Build|每Build一次就输出一次 <left><img src="/public/img/WorldMachine的使用/2.png"></left>|
 |Write output to disk！|输出到硬盘。点击这个才是真正的输出保存到硬盘当中|
 
     
-<left><img src="/public/img/WorldMachine的使用/2.png"></left>
+
 
 　　不勾选：允许输出所有瓷块
 
