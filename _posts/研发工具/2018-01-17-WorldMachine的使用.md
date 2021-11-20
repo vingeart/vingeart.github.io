@@ -24,7 +24,7 @@ published: True
 |Write output to disk！|输出到硬盘。点击这个才是真正的输出保存到硬盘当中|
 
     
-
+<left><img src="/public/img/WorldMachine的使用/3.png"></left>
 
 　　不勾选：允许输出所有瓷块
 
