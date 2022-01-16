@@ -1,0 +1,26 @@
+---
+layout: post
+title: Shader-PBR金属流
+category: [Unity]
+tags: [ShaderGraph, Shader, 径向速度线]
+published: True
+---
+
+
+`声明：版权所有，禁止匿名转载；禁止商业使用。`
+
+
+## 效果和参数 ##
+<left>
+	<img src="/public/img/Shader-PBR金属流/1.bmp">
+    <img src="/public/img/Shader-PBR金属流/2.bmp">
+	<img src="/public/img/Shader-PBR金属流/3.bmp">
+	</left>
+<p></p>
+<left>
+	<img src="/public/img/Shader-PBR金属流/4.bmp">
+    <img src="/public/img/Shader-PBR金属流/5.bmp">
+	<img src="/public/img/Shader-PBR金属流/6.bmp">
+	</left>
+
+
