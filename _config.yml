@@ -7,15 +7,15 @@ encoding: utf-8
 author: 
   name: 邱有景
   email: 295978222@qq.com
-  link: http://www.qiuyoujing.com
-  weibo: http://www.qiuyoujing.com
+  link: http://www.02cg.com
+  weibo: http://www.02cg.com
   github: http://github.com/vingeart
   zhihu: https://www.zhihu.com/people/vingeart
 
 # 站点信息
 title: VinGe's Life
 description: My personal note-blog.
-url: http://www.qiuyoujing.com
+url: http://www.02cg.com
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
@@ -25,7 +25,7 @@ favicon: /public/img/favicon.ico
 # google analytics 设置
 ga:
   id: UA-68479766-4
-  url: http://www.qiuyoujing.com
+  url: http://www.02cg.com
 
 
 # 多说 设置
@@ -35,9 +35,9 @@ disqus_shortname: vingeart
 active: Unity
 
 # 首页除了最新文章外显示分类
-cates: 
-  - React
-  - 摄影
+# cates: 
+#   - React
+#   - 摄影
 
 
 # 中文本地化
